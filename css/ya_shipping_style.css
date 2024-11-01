@@ -1,0 +1,136 @@
+#quick_quote_div {
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	width: 50%;
+	padding: 3px;
+	border: 3px solid orange;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+	width:40%;
+	height:40%;
+}
+
+.button {
+	width: 150px;
+	padding: 10px;
+	background-color: #FF8C00;
+	box-shadow: -8px 8px 10px 3px rgba(0,0,0,0.2);
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#cover {
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.6);
+	z-index:5;
+	width:100%;
+	height:100%;
+	display:none;
+} 
+ 
+#loginScreen {
+	height:93%;
+	width:65%; 
+	margin-left: 20%;  
+	position:fixed; 
+	z-index:10; /*display:none;*/  
+	border:5px solid black; 
+	border-radius:10px;
+	top: 33px;
+} 
+ 
+#loginScreen:target,
+#loginScreen:target + #cover {
+	display:block;
+	opacity:2;
+} 
+
+.cancel {
+	display:block;
+	position:absolute;
+	right:2px;
+	text-decoration:none;
+	color: #FEE600;
+	float:right;
+	font-weight:bold;
+}
+
+#qc-qo-form-div {
+	position: relative !important;
+    width: 30% !important;
+    height: 90% !important;
+    float: left;
+	padding-left:12px;
+}
+
+#qc-qo-result-div {
+    position: relative !important;
+    width: 65% !important;
+    height: 90% !important;
+    /*background: red;*/
+    float: right;
+}
+
+#qc-top-div {
+	position: relative !important;
+    width: 100% !important;
+    height: 6% !important;
+	background: black;
+	color: white;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#qc-bottom-div {
+	position: relative !important;
+    width: 100% !important;
+    height: 90% !important;
+	 background: white;
+}
+
+#qc-text-div {
+	position: relative !important;
+    width: 100% !important;
+    height: 4% !important;
+	background: white !important;
+	font-weight: bold;
+	text-align: center;
+}
+
+.qc-form-field-label {
+	color: black;
+    font-weight: bold;
+    font-size: 10pt;
+	vertical-align: top !important;
+}
+
+.quick-quote-input {
+	width:150px;
+	border: 1px solid black !important;
+}
+
+#qc-result-data-div {
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.yaship-boxes td {
+	vertical-align: middle;
+	padding: 4px 7px;
+}
+.yaship-boxes th {
+	padding: 9px 7px;
+}
+.yaship-boxes td input {
+	margin-right: 4px;
+}
+.yaship-boxes .check-column {
+	vertical-align: middle;
+	text-align: left;
+	padding: 0 7px;
+}
